@@ -87,3 +87,18 @@ li {
 .card {
     display: inline-block !important;
 }
+
+.learn-more-box {
+    text-decoration: none;
+    color:rgb(14,124,16);
+    font-weight: 900;
+}
+
+.learn-more-box:hover {
+    text-decoration: underline;
+    color:#107c10;
+}
+
+.learn-more-box::after {
+
+}
