@@ -16,19 +16,23 @@ nav button {
 
 /* hero section styles */
 .hero-section {
-    background-image: url("https://assets.xboxservices.com/assets/93/4e/934e173b-8b50-457d-a888-bf5dccc28f0b.jpg?n=0277800_Accessories-Hub_Page-Hero-1084_1920x720.jpg");
+    position: relative;
     background-position: center;
     color: white;
-    height: 550px;
+    height: 60%;
+}
+
+.carousel img {
+    max-height: 550px;
 }
 
 .hero-section__content {
     width: auto;
     height: 190.5px;
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left:-25%;   
+    left: 12.5%
 }
 
 .yellow-box { 
@@ -102,4 +106,17 @@ li {
 .learn-more-box:hover {
     text-decoration: underline;
     color:#107c10;
+}
+
+.card-container {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.carousel-indicators [data-bs-target] {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
 }
