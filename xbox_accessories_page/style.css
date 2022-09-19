@@ -81,4 +81,9 @@ li {
     font-size: 16px;
     margin-bottom: 20px;
 }
-/* this comment is to test thing x_x */
+
+/* content-section__products--content-placement styles */
+
+.card {
+    display: inline-block !important;
+}
